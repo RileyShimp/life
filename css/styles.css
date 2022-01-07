@@ -1,4 +1,50 @@
-.container-sm {
-  background-image: url(../img/rzgld.jpg);
-  background-size: cover
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-color: burlywood;
+  color: rgb(23, 22, 21);
+  font-family: Bebas Neue;
+  margin: 5%;
+  border: solid black 20px;
+  padding: 10%;
+  max-width: 100%;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+text-align: center;
+font-size: 35px;
+}
+
+.redtag {
+  color:rgb(220, 58, 58);
+}
+
+#bluetag {
+  color:royalblue;
+}
+
+p {
+  font-size: 1.5em;
+  border-top: solid black 10px;
+  border-bottom: solid black 10px;
+  text-align: center;
+}
+
+.ocean p {
+  text-align: left;
+  min-height: 320px;
+  padding: 5%;
+}
+
+.ocean img {
+  float: left;
+  max-width: 175px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border: solid rgba(99, 79, 58, 0.776) 10px
 }
